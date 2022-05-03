@@ -10,7 +10,7 @@ gem 'mocha'
 gem 'ruby-saml', '>= 1.9.0'
 gem 'rack-test'
 gem 'rake'
-gem 'sinatra'
+gem 'sinatra', '>= 2.2.0'
 gem 'test-unit'
 gem 'activesupport'
 
