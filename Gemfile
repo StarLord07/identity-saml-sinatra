@@ -12,7 +12,7 @@ gem 'rack-test'
 gem 'rake'
 gem 'sinatra'
 gem 'test-unit'
-gem 'activesupport'
+gem 'activesupport', '>= 6.1.7.1'
 
 group :development do
   gem 'pry'
