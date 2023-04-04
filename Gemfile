@@ -3,16 +3,16 @@ source 'https://rubygems.org'
 
 ruby '~> 2.7.3'
 
-gem 'aws-sdk-s3', '~> 1.30'
+gem 'aws-sdk-s3', '~> 1.30', '>= 1.30.1'
 gem 'dotenv'
 gem 'hashie'
 gem 'mocha'
-gem 'ruby-saml', '>= 1.9.0'
-gem 'rack-test'
+gem 'ruby-saml', '>= 1.11.0'
+gem 'rack-test', '>= 2.0.0'
 gem 'rake'
-gem 'sinatra'
+gem 'sinatra', '>= 2.2.3'
 gem 'test-unit'
-gem 'activesupport'
+gem 'activesupport', '>= 6.1.7.3'
 
 group :development do
   gem 'pry'
